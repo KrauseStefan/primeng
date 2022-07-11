@@ -1665,9 +1665,7 @@ export class Calendar implements OnInit,OnDestroy,ControlValueAccessor {
                 break;
             }
 
-            //enter
             //space
-            case 13:
             case 32: {
                 this.overlayVisible = false;
                 event.preventDefault();
